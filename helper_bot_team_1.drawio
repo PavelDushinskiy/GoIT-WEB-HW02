@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T17:19:27.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="u6LdP99snrPlZnoVEsve" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T17:23:37.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8cXdRn0ABUcMj73o1DHH" version="20.3.7" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
     <mxGraphModel dx="1689" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="235556782a83e6d0-1" value="&lt;span id=&quot;docs-internal-guid-6816174d-7fff-ccf1-88b6-65116feb5ed2&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Records container&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;implements common functionality &lt;br&gt;for classes that hold records&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=4;fillColor=#fff2cc;fontFamily=Verdana;fontSize=12;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="250" width="440" height="270" as="geometry" />
+          <mxGeometry x="1130" y="550" width="440" height="270" as="geometry" />
         </mxCell>
         <mxCell id="S9hdPkOgh9MAr9dniBaE-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;RecordsContainer&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;(UserDict)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;save_file&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;load_data(cls, filepath: str) -&amp;gt; None | dict&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;backup_data(handler) -&amp;gt; None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;add_record(self, record) -&amp;gt; None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;remove_record(self, *args: str) -&amp;gt; str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;record_exists(record_name: str) -&amp;gt; bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;show_all(self) -&amp;gt; str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;search_record(self, needle: str) -&amp;gt; str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;comic=0;" parent="235556782a83e6d0-1" vertex="1">
           <mxGeometry y="70" width="440" height="170" as="geometry" />
@@ -166,8 +166,8 @@
             <mxPoint x="1097.3600000000001" y="381.20000000000005" as="sourcePoint" />
             <mxPoint x="993.4399999999996" y="168.30899999999997" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1040" y="294" />
-              <mxPoint x="1040" y="168" />
+              <mxPoint x="1040" y="594" />
+              <mxPoint x="1040" y="188" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -176,8 +176,8 @@
             <mxPoint x="1097.3600000000001" y="381.20000000000005" as="sourcePoint" />
             <mxPoint x="990.4299999999998" y="738.2199999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1040" y="380" />
-              <mxPoint x="1040" y="738" />
+              <mxPoint x="1040" y="681" />
+              <mxPoint x="1040" y="756" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -196,6 +196,12 @@
         </mxCell>
         <mxCell id="lEGzqMXB7P38WEidCBxq-36" value="New Feature" style="html=1;strokeWidth=4;fillColor=#FFFFCC;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="50" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lEGzqMXB7P38WEidCBxq-37" value="&lt;span id=&quot;docs-internal-guid-6816174d-7fff-ccf1-88b6-65116feb5ed2&quot; style=&quot;&quot;&gt;&lt;p style=&quot;font-weight: normal; line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 18.6667px;&quot;&gt;AddressBook Fields&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; font-weight: 400;&quot;&gt;The base class for the fields of an addressbook&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=4;fillColor=#fff2cc;fontFamily=Verdana;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="150" width="440" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="lEGzqMXB7P38WEidCBxq-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Field&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ value&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;load_data(cls, filepath: str) -&amp;gt; None | dict&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;backup_data(handler) -&amp;gt; None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;add_record(self, record) -&amp;gt; None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;remove_record(self, *args: str) -&amp;gt; str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;record_exists(record_name: str) -&amp;gt; bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;show_all(self) -&amp;gt; str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;search_record(self, needle: str) -&amp;gt; str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;comic=0;" vertex="1" parent="lEGzqMXB7P38WEidCBxq-37">
+          <mxGeometry y="70" width="440" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
