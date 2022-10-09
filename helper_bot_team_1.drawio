@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T19:21:50.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Sn_AUouINXAHbS6D0VJL" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T22:42:38.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yzLadqrcFQs64hZwWD6w" version="20.4.0" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
-    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry y="70" width="440" height="170" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-17" value="&lt;span id=&quot;docs-internal-guid-518b5261-7fff-1eaa-3dbb-43b548479f24&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Notebook&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;handles notebook functionality&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=3;fillColor=#fff2cc;fontFamily=Verdana;fontSize=12;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="560" y="153" width="430" height="527" as="geometry">
+          <mxGeometry x="560" y="153" width="430" height="480" as="geometry">
             <mxRectangle x="130" y="320" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -52,24 +52,15 @@
           <mxGeometry y="188" width="420" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-82" value="&lt;span id=&quot;docs-internal-guid-90a42072-7fff-7c9c-4a2b-a72deb1d7fb4&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Addressbook&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;handles addressbook &lt;br&gt;functionality&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=3;fillColor=#fff2cc;fontFamily=Verdana;fontSize=12;container=1;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="560" y="720" width="430" height="400" as="geometry">
+          <mxGeometry x="560" y="900" width="430" height="260" as="geometry">
             <mxRectangle x="560" y="660" width="190" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S9hdPkOgh9MAr9dniBaE-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class BotFeature&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ command_handlers: dict[str, Callable]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ handle_command(command: str, *args: List[str])&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;comic=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;fixedWidth=0;fillOpacity=100;recursiveResize=0;" parent="78961159f06e98e8-82" vertex="1">
-          <mxGeometry y="80" width="430" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="S9hdPkOgh9MAr9dniBaE-18" value="" style="html=1;comic=0;" parent="78961159f06e98e8-82" vertex="1">
-          <mxGeometry y="200" width="430" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="S9hdPkOgh9MAr9dniBaE-17" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;shadow=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="78961159f06e98e8-82" source="S9hdPkOgh9MAr9dniBaE-15" target="S9hdPkOgh9MAr9dniBaE-16" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="170" y="270" as="sourcePoint" />
-            <mxPoint x="210" y="250" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry y="80" width="430" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9hdPkOgh9MAr9dniBaE-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class AddressBook(BotFeature)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save_file: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ self.data&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add_contact()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ change_contact(*args: str)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ check_birthdays(period: str)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;comic=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;fixedWidth=0;" parent="78961159f06e98e8-82" vertex="1">
-          <mxGeometry y="240" width="430" height="140" as="geometry" />
+          <mxGeometry y="120" width="430" height="140" as="geometry" />
         </mxCell>
         <mxCell id="b94bc138ca980ef-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;BotFeature&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span id=&quot;docs-internal-guid-a344973a-7fff-190a-9e88-1d810033c727&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;implements handler of commands &lt;br&gt;for all bot features&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=4;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="10" y="269" width="420" height="411" as="geometry" />
@@ -92,7 +83,7 @@
             <mxPoint x="760" y="340" as="targetPoint" />
             <Array as="points">
               <mxPoint x="480" y="334" />
-              <mxPoint x="480" y="757" />
+              <mxPoint x="480" y="924" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -107,7 +98,7 @@
             <mxPoint x="564.0300000000001" y="167.86599999999999" as="targetPoint" />
             <Array as="points">
               <mxPoint x="480" y="313" />
-              <mxPoint x="480" y="181" />
+              <mxPoint x="480" y="178" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -167,7 +158,7 @@
             <mxPoint x="993.4399999999996" y="168.30899999999997" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1040" y="594" />
-              <mxPoint x="1040" y="188" />
+              <mxPoint x="1040" y="185" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -177,11 +168,11 @@
             <mxPoint x="990.4299999999998" y="738.2199999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1040" y="681" />
-              <mxPoint x="1040" y="756" />
+              <mxPoint x="1040" y="924" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lEGzqMXB7P38WEidCBxq-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.793;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="b94bc138ca980ef-1">
+        <mxCell id="lEGzqMXB7P38WEidCBxq-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.793;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="b94bc138ca980ef-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="260" as="sourcePoint" />
             <mxPoint x="560" y="80.00100000000003" as="targetPoint" />
@@ -196,6 +187,21 @@
         </mxCell>
         <mxCell id="lEGzqMXB7P38WEidCBxq-36" value="New Feature" style="html=1;strokeWidth=4;fillColor=#FFFFCC;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="50" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S9hdPkOgh9MAr9dniBaE-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class BotFeature&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ command_handlers: dict[str, Callable]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ handle_command(command: str, *args: List[str])&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;comic=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;fixedWidth=0;fillOpacity=100;recursiveResize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="560" y="720" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S9hdPkOgh9MAr9dniBaE-17" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;shadow=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S9hdPkOgh9MAr9dniBaE-15" target="78961159f06e98e8-82" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="990" as="sourcePoint" />
+            <mxPoint x="770" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5F4czkctW1SC2w4eoZQ-1" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;shadow=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="S9hdPkOgh9MAr9dniBaE-15" target="lEGzqMXB7P38WEidCBxq-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="680" as="sourcePoint" />
+            <mxPoint x="770" y="740" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
